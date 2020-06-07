@@ -1,0 +1,20 @@
+.p-contact {
+  &__text {
+    padding-top: $space--s;
+    padding-bottom: $space--l;
+    @include mq() {
+      font-size: $font-size--m;
+    }
+  }
+  &__account {
+    padding: $space--m $space--xl;
+    margin: $space--m auto;
+    border-bottom: 1px solid $bg-color--main;
+    text-align: left;
+    max-width: 280px;
+  }
+  &__fa {
+    padding-right: 10px;
+    padding-left: 5px;
+  }
+}

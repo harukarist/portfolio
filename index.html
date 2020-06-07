@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>harukarist's portfolio</title>
+  <link type="text/css" rel="stylesheet" href="./css/style.css">
+  <link rel="apple-touch-icon" type="image/png" href="images/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="images/icon-192x192.png">
+
+  <script src="https://kit.fontawesome.com/f2d7c28546.js" crossorigin="anonymous"></script>
+  <noscript>
+    <style>
+      .js-slidein {
+        opacity: 1;
+        transform: translate(0, 0);
+      }
+    </style>
+  </noscript>
+</head>
+
+<body id="top">
+  <div class="u-overflow--hidden js-float-menu-target">
+    <section class="p-hero">
+      <div class="p-hero__content c-fadein">
+        <h1 class="p-hero__title p-hero__underline">harukarist's portfolio</h1>
+        <h2 class="p-hero__subtitle">Web Developer</h2>
+        <div class="p-hero__scroll c-arrow-down--animation">
+          <p class="p-hero__scroll-text">scroll<span class="c-arrow-down__arrow"></span></p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <header id="header" class="u-bgcolor--main js-float-menu">
+    <h1><a href="#top" class="p-header__title">harukarist's portfolio</a></h1>
+    <!-- ハンバーガーメニュー　spanタグで三本線を描写 -->
+    <div class="p-header__trigger js-sp-menu-trigger">
+      <span class="p-header__trigger--line"></span>
+      <span class="p-header__trigger--line"></span>
+      <span class="p-header__trigger--line"></span>
+      <span class="p-header__trigger--text"></span>
+    </div>
+    <!-- ナビメニュー -->
+    <nav id="nav" class="p-nav js-sp-menu-target">
+      <ul class="p-nav__list">
+        <li class="p-nav__item"><a class="p-nav__link js-sp-menu-link" href="#profile">PROFILE</a></li>
+        <li class="p-nav__item"><a class=" p-nav__link js-sp-menu-link" href="#skills">SKILLS</a></li>
+        <li class="p-nav__item"><a class=" p-nav__link js-sp-menu-link" href="#works">WORKS</a></li>
+        <li class="p-nav__item"><a class=" p-nav__link js-sp-menu-link" href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="js-under-menu">
+    <section class="c-section" id="profile">
+      <h2 class="c-section__title c-slide-up js-slidein">PROFILE</h2>
+      <div class="c-section__body p-profile">
+        <span class="p-profile__avatar c-icon c-slide-left js-slidein js-fluffy"></span>
+        <div class="p-profile__content c-slide-right js-slidein">
+          <p class="p-profile__text">
+            ユーザ系SIerにて要件定義や提案業務に5年間従事した後、予算管理や社内HPの制作、給与計算や社会保険手続きなどバックオフィス業務を幅広く経験。<br>
+            現在は社内ヘルプデスク業務やPCキッティング等を担当。
+          </p>
+          <p class="p-profile__text">
+            高校時代から写真やイラストを掲載したHP制作に熱中し、大学時代はサークル内のポータルサイトを運営するなど、Webを使って人と人をつなげること、チームの生産性を高めることに興味を持ってきました。
+          </p>
+          <p class="p-profile__text">
+            好奇心が強く、新しい知識を学んで活用すること、課題を解決し日々改善することが好きです。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="c-section p-skills u-bgcolor--base" id="skills">
+      <h2 class="c-section__title c-slide-up js-slidein">SKILLS</h2>
+      <div class="c-section__body">
+        <div class="c-grid">
+          <div class="c-grid__panel  p-skills__panel c-slide-left js-slidein">
+            <div class="p-skills__icon">
+              <i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i>
+            </div>
+            <h3 class="p-skills__item">
+              HTML / CSS
+            </h3>
+            <p class="p-skills__text">
+              レスポンシブデザインに対応したWebサイトを構築できます。<br>
+              Sassや各種CSS設計思想（BEM・SMACSS・FLOCSS等）を取り入れた、保守性の高いコーディングを心がけています。
+            </p>
+          </div>
+          <div class="c-grid__panel  p-skills__panel c-slide-left js-slidein">
+            <div class="p-skills__icon">
+              <i class="fab fa-js-square"></i>
+            </div>
+            <h3 class="p-skills__item">
+              javascript / jQuery
+            </h3>
+            <p class="p-skills__text">
+              バリデーション機能の実装や簡単なアプリ制作が可能です。<br>
+              npmやyarnによるパッケージ管理、gulpによる自動ビルドなどを行なっています。<br>
+              Vue.js, React.jsを学習中です。
+            </p>
+          </div>
+          <div class="c-grid__panel  p-skills__panel c-slide-left js-slidein">
+            <div class="p-skills__icon">
+              <i class="fab fa-php"></i><i class="fas fa-database"></i>
+            </div>
+            <h3 class="p-skills__item">
+              PHP / SQL
+            </h3>
+            <p class="p-skills__text">
+              フルスクラッチでユーザ登録、ログイン機能、データ表示や更新など、Webサービスの基本的な機能を実装できます。<br>
+              Fuel.php、Laravelを学習中です。
+            </p>
+          </div>
+          <div class="c-grid__panel  p-skills__panel c-slide-left js-slidein">
+            <div class="p-skills__icon">
+              <i class="fab fa-adobe"></i>
+            </div>
+            <h3 class="p-skills__item">
+              Photoshop / Illustrator / XD
+            </h3>
+            <p class="p-skills__text">
+              趣味で学生時代からパンフレットやチラシなどを制作していました。<br>
+              シンプルで分かりやすく、心地よさを感じられるデザインを心がけています。
+            </p>
+          </div>
+          <div class="c-grid__panel  p-skills__panel c-slide-left js-slidein">
+            <div class="p-skills__icon">
+              <i class="fab fa-wordpress"></i>
+            </div>
+            <h3 class="p-skills__item">
+              WordPress
+            </h3>
+            <p class="p-skills__text">
+              テンプレートのカスタマイズや機能追加など、WordPressを使ったWebサイト制作が可能です。
+            </p>
+          </div>
+          <div class="c-grid__panel  p-skills__panel c-slide-left js-slidein">
+            <div class="p-skills__icon">
+              <i class="fab fa-microsoft"></i>
+            </div>
+            <h3 class="p-skills__item">
+              Excel / VBA
+            </h3>
+            <p class="p-skills__text">
+              前職ではExcelでのデータ分析業務が多かったため、関数やVBAを使った業務の効率化が得意です。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="c-section" id="works">
+      <h2 class="c-section__title c-slide-up js-slidein">WORKS</h2>
+      <div class="c-section__body c-slide-right js-slidein">
+        <p class="p-works__intro">これまでに作成した<br>アウトプットです。</p>
+        <div class="c-grid">
+          <div class="c-grid__panel p-works__panel">
+            <div class="p-works__trim">
+              <img src="images/works1.png" class="p-works__img" alt="Thanks!">
+            </div>
+            <div class="p-works__details">
+              <div class="p-works__body">
+                <h3 class="p-works__heading">
+                  Thanks!
+                </h3>
+                <p class="p-works__lead">
+                  初めてPHPで制作したWebサービス。
+                  感謝の気持ちを伝えるメッセージカードを職場などのチーム内で気軽に送り合うことができるサービスです。
+                </p>
+              </div>
+              <div class="p-works__foot">
+                <p class="p-works__note">
+                  HTML5/CSS3/jQuery/PHP<br>
+                  制作時間：80.5時間
+                </p>
+                <a href="https://portfolio.harukarist.work/thanks/" target="_blank"
+                  class="c-btn__accent p-works__site">DemoSite</a>
+                <a href="https://github.com/harukarist/thanks" target="_blank"
+                  class="c-btn__main p-works__github">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="c-grid__panel p-works__panel">
+            <div class="p-works__trim">
+              <img src="images/works2.png" class="p-works__img" alt="鳥獣戯画とあっちむいてほい！">
+            </div>
+            <div class="p-works__details">
+              <div class="p-works__body">
+                <h3 class="p-works__heading">
+                  鳥獣戯画とあっちむいてほい！
+                </h3>
+                <p class="p-works__lead">
+                  動物が次にどの方向を向くかを当てるゲームです。オブジェクト指向を意識して制作しました。
+                </p>
+              </div>
+              <div class="p-works__foot">
+                <p class="p-works__note">
+                  HTML5/CSS3/jQuery/PHP<br>
+                  制作時間：22.5時間
+                </p>
+                <a href="https://portfolio.harukarist.work/choju-acchi/" target="_blank"
+                  class="c-btn__accent p-works__site">DemoSite</a>
+                <a href="https://github.com/harukarist/choju-acchi/" target="_blank"
+                  class="c-btn__main p-works__github">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="c-section u-bgcolor--base" id="contact">
+      <h2 class="c-section__title c-slide-up js-slidein">CONTACT</h2>
+      <div class="c-section__body c-slide-left js-slidein">
+        <p class="p-contact__text">
+          現在、以下のフォームは機能しておりません。<br>
+          お手数ですが、下記のメールアドレス または twitterのDMへ<br>
+          ご連絡いただければ幸いです。
+        </p>
+        <div class="p-contact__account">
+          <a href="mailto:harukarist@gmail.com" target="_blank">
+            mail<i class="fas fa-envelope p-contact__fa"></i>harukarist@gmail.com
+          </a>
+        </div>
+        <div class="p-contact__account u-mb--xxxl">
+          <a href="https://twitter.com/harukarist" target="_blank">
+            twitter<i class="fab fa-twitter p-contact__fa"></i>@harukarist
+          </a>
+        </div>
+
+
+        <form action="" class="c-form--middle">
+          <span class="c-form__label">お名前</span>
+          <input class="c-input c-input--large c-input--underline" type="text" placeholder="name">
+          <span class="c-form__label">メールアドレス</span>
+          <input class="c-input c-input--large c-input--underline" type="email" placeholder="example@example.com">
+          <span class="c-form__label u-mb--xl">コメント</span>
+          <textarea class="c-input c-input--large c-input__textarea u-mb--xxxl" placeholder="コメントをご記入ください"></textarea>
+          <button class="c-btn--middle c-btn__effect">送信</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <span class="c-pagetop footer__pagetop js-pagetop"><a href="#top"><i class="fas fa-chevron-up"></i></a></span>
+    <ul class="c-list-row-center footer__list">
+      <li class="c-list-row-center__item">
+        <a href="https://twitter.com/harukarist" target="_blank" class="c-fluffy--hover">
+          <i class="fab fa-twitter c-slide-down js-slidein-footer js-fluffy"></i>
+
+        </a>
+      </li>
+      <li class="c-list-row-center__item  c-slide-down js-slidein-footer js-fluffy">
+        <a href="https://www.harukarist.work/" target="_blank" class="c-fluffy--hover">
+          <i class="fas fa-home"></i>
+        </a>
+      </li>
+      <li class="c-list-row-center__item  c-slide-down js-slidein-footer js-fluffy">
+        <a href="https://github.com/harukarist/" target="_blank" class="c-fluffy--hover">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li class="c-list-row-center__item  c-slide-down js-slidein-footer js-fluffy">
+        <a href="mailto:harukarist@gmail.com" target="_blank" class="c-fluffy--hover">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    </ul>
+
+    <p class="footer__copyright c-slide-down js-slidein-footer">© harukarist All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>

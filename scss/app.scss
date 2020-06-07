@@ -1,0 +1,77 @@
+// =================================================
+// Foundation
+// =================================================
+//  reset.cssやnormalize.cssを読み込み
+//  サイト全体のデフォルトスタイルを定義
+
+@import "foundation/_reset";
+@import "foundation/_base";
+@import "foundation/_mixin";
+
+// =================================================
+// Layout
+// =================================================
+//  Objectの配置を決める
+//  ページ単位で唯一の存在＝idセレクタを使う
+
+@import "layout/_header";
+@import "layout/_main";
+@import "layout/_footer";
+
+// =================================================
+// Object
+// =================================================
+
+// -----------------------------------
+// Component
+// -----------------------------------
+// 再利用可能な共通パーツ
+// プレフィックスに「c-」
+
+@import "object/component/_arrow";
+@import "object/component/_balloon";
+@import "object/component/_btn";
+@import "object/component/_container";
+@import "object/component/_fadein";
+@import "object/component/_fluffy";
+@import "object/component/_form";
+@import "object/component/_grid";
+@import "object/component/_icon";
+@import "object/component/_input";
+@import "object/component/_link";
+@import "object/component/_list";
+@import "object/component/_pagetop";
+@import "object/component/_section";
+@import "object/component/_slide";
+
+// -----------------------------------
+// Project
+// -----------------------------------
+// 各ページ固有の使い回さないパーツ
+// プレフィックスに「p-」
+
+@import "object/project/_contact";
+@import "object/project/_hero";
+@import "object/project/_menu";
+@import "object/project/_profile";
+@import "object/project/_skills";
+@import "object/project/_works";
+
+// -----------------------------------
+// Utility
+// -----------------------------------
+// 微妙なスタイル調整
+// プレフィックスに「u-」
+
+@import "object/utility/_align";
+@import "object/utility/_attr";
+@import "object/utility/_bgcolor";
+@import "object/utility/_clearfix";
+@import "object/utility/_display";
+@import "object/utility/_flex";
+@import "object/utility/_float";
+@import "object/utility/_font";
+@import "object/utility/_margin";
+@import "object/utility/_overflow";
+
+
