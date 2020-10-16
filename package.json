@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/app.scss src/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "sync": "browser-sync start --server --files \"**/*\" ",
+    "dev": "concurrently --kill-others \"npm run watch-css\" \"npm run sync\"",
+    "prefix": "gulp"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "browser-sync": "^2.23.3",
+    "concurrently": "^3.5.1",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "node-sass": "^4.9.4",
+    "nodemon": "^1.18.4"
+  }
+}
